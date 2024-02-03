@@ -1,0 +1,49 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Help Desk Management System
+  link(rel='stylesheet' href='style.css')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js')
+  style.
+    .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    }
+    .footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+.header
+  h1 Welcome to the Help Desk Management System
+.container
+  h1.text-center Help Desk Management System
+  .row
+    .col-md-4
+      h2 Users
+      p Manage users and their roles.
+      a.btn.btn-primary(href='/users') Manage Users
+    .col-md-4
+      h2 Tickets
+      p Manage tickets and their status.
+      a.btn.btn-primary(href='/tickets') Manage Tickets
+    .col-md-4
+      h2 Comments
+      p Manage comments on tickets.
+      a.btn.btn-primary(href='/comments') Manage Comments
+  .row
+    .col-md-4
+      h2 Courses
+      p Manage courses and their details.
+      a.btn.btn-primary(href='/courses') Manage Courses
+.footer
+  p &copy; 2023 Help Desk Management System. All rights reserved.
+

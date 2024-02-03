@@ -1,0 +1,15 @@
+doctype html
+head
+  title Tickets
+  link(rel='stylesheet' type='text/css' href='tickets.css')
+h1 Tickets
+ul#ticket-list
+form#new-ticket-form
+  label(for='new-ticket-subject') Subject:
+  input#new-ticket-subject(type='text' name='subject')
+  br
+  label(for='new-ticket-description') Description:
+  textarea#new-ticket-description(name='description')
+  br
+  button(type='submit') Submit
+script(src='tickets.js')
